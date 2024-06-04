@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../image/svg/logo.svg">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <title>Coffe-house/home</title>
+</head>
+
+<body>
+
+  <div class="home__container">
+    <header class="header">
+      <div class="container">
+        <div class="header_inner">
+          <div class="logo">
+            <img src="../image/svg/logo.svg" alt="logo">
+          </div>
+          <div class="header_nav">
+            <nav class="navigation">
+              <ul class="nav_list">
+                <li><a href="#favourites_coffee" class="menu_link">Favorite coffee</a></li>
+                <li><a href="#about" class="menu_link">About</a></li>
+                <li><a href="#mobile_app" class="menu_link">Mobile app</a></li>
+                <li><a href="#contact_us" class="menu_link">Contact us</a></li>
+              </ul>
+              <a id="menu__btn" class="header__menu nav_hidden" href="../menu/index.html"><span>Menu</span> <img
+                  class="button__header-img" src="../image/svg/coffee-cup.svg" alt="cup"></a>
+            </nav>
+          </div>
+          <a class="header__menu hidden" href="../menu/index.html"><span>Menu</span> <img class="button__header-img"
+              src="../image/svg/coffee-cup.svg" alt="cup"></a>
+          <button class="button__header ">
+            <span class="button_content "></span>
+            <span class="button_content"></span>
+          </button>
+
+        </div>
+      </div>
+      <div class="hero">
+        <div class="container">
+          <div class="enjoy__wrap">
+            <section class="enjoy" id="enjoy">
+
+              <div class="offer">
+                <h1><span class="enjoy__h1-world">Enjoy</span> premium coffee at our charming cafe</h1>
+                <p class="text enjoy__text">With its inviting atmosphere and delicious coffee options, the Coffee House
+                  Resource is a popular
+                  destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite
+                  beverage.</p>
+                <a class="button__primary-link" href="../menu/index.html">
+                  <!-- <button class="button button__primary"> -->
+                  <span>Menu</span><img class="menu__cup" src="../image/svg/coffee-cup.svg" alt="coffee cup">
+                  <!-- </button> -->
+                </a>
+              </div>
+
+              <video autoplay muted loop class="video">
+                <source src="../image/img/video (2160p).mp4" type="video/mp4">
+              </video>
+            </section>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <main>
+
+      <section class="favourites_coffee" id="favourites_coffee">
+        <div class="container">
+          <div class="favourites_coffee__wrap">
+            <div class="container__favourites">
+              <h2 class="favourites__h2">Choose your <span class="h2-wold">favorite</span> coffee</h2>
+              <div class="favourites__slider">
+                <div class="sliders">
+                  <div class="sliders__line">
+
+                    <div class="slide">
+                      <div class="slider__content">
+                        <img class="slider__img" src="../image/img/coffee-slider-1.png" alt="coffee">
+                        <div class="slider__description">
+                          <p class="text__coffee text__slider">S’mores Frappuccino</p>
+                          <p class="text text__slider">This new drink takes an espresso and mixes it with brown
+                            sugar
+                            and cinnamon
+                            before
+                            being topped
+                            with oat milk.</p>
+                          <p class="text__coffee text__slider">$5.50</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slider__content">
+                        <img class="slider__img" src="../image/img/coffee-slider-2.png" alt="coffee">
+                        <div class="slider__description">
+                          <p class="text__coffee text__slider">Caramel Macchiato</p>
+                          <p class="text text__slider">Fragrant and unique classic espresso with rich caramel-peanut
+                            syrup, with cream under whipped thick foam.</p>
+                          <p class="text__coffee text__slider">$5.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slider__content">
+                        <img class="slider__img" src="../image/img/coffee-slider-3.png" alt="coffee">
+                        <div class="slider__description">
+                          <p class="text__coffee text__slider">Ice coffee</p>
+                          <p class="text text__slider">A popular summer drink that tones and invigorates. Prepared from
+                            coffee, milk and ice.</p>
+                          <p class="text__coffee text__slider">$4.50</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="slider__controls">
+                  <progress id="prog" class="line line__active" value="0" max="100"></progress>
+                  <progress class="line" value="3" max="100"></progress>
+                  <progress class="line" value="3" max="100"></progress>
+                </div>
+
+
+              </div>
+              <button class="button__circle--left"><img src="../image/svg/arrow-left.svg" alt="arrow"></button>
+              <button class="button__circle--right"><img src="../image/svg/arrow-right.svg" alt="arrow"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__wrap">
+            <div class="container__about">
+              <h2>Resource is <span class="h2-wold">the perfect and cozy place</span> where you can enjoy a variety of
+                hot
+                beverages, relax, catch up
+                with friends, or get some work done.</h2>
+              <div class="about__image">
+                <div class="image__column-1">
+                  <div class="box__img">
+                    <a href="" class=""><img class="box__photo image__big" src="../image/img/about-1.jpg"
+                        alt="young woman"></a>
+                  </div>
+                  <div class="box__img">
+                    <a href="" class=""><img class="box__photo image__small" src="../image/img/about-2.jpg"
+                        alt="young man">
+                    </a>
+                  </div>
+                </div>
+                <div class="image__column-2">
+                  <div class="box__img">
+                    <a href="" class=""><img class="box__photo image__small" src="../image/img/about-3.jpg"
+                        alt="a cup of coffee">
+                    </a>
+                  </div>
+                  <div class="box__img">
+                    <a href="" class=""><img class="box__photo image__big" src="../image/img/about-4.jpg"
+                        alt="couple of lovers"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mobile_app" id="mobile_app">
+        <div class="container">
+          <div class="mobile_app__wrap">
+            <div class="container__mobile">
+              <div class="offer__mobile">
+                <h2><span class="h2-wold">Download</span> our apps to start ordering</h2>
+                <p class="text">Download the Resource app today and experience the comfort of ordering your favorite
+                  coffee from wherever you are</p>
+                <div class="buttons__app-google">
+                  <a class="button buttons__app">
+                    <div class="button__icon-apple">
+                      <svg class="image__icon" width="28" height="33" viewBox="0 0 28 33" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M22.7073 17.6307C22.6704 13.6324 26.065 11.6872 26.2203 11.5966C24.2977 8.86366 21.3178 8.49026 20.2707 8.46048C17.7679 8.20369 15.3403 9.92062 14.0654 9.92062C12.765 9.92062 10.8017 8.48529 8.68579 8.52747C5.96293 8.56841 3.41566 10.1055 2.0186 12.4923C-0.864579 17.359 1.28572 24.5108 4.04802 28.4446C5.42981 30.3712 7.04444 32.5223 9.15784 32.4466C11.2254 32.3635 11.9978 31.1614 14.4929 31.1614C16.9651 31.1614 17.6903 32.4466 19.8457 32.3983C22.0647 32.3635 23.4618 30.463 24.7952 28.519C26.392 26.3108 27.0333 24.1362 27.0588 24.0245C27.0066 24.0071 22.7493 22.4229 22.7073 17.6307Z"
+                          fill="#403F3D" />
+                        <path
+                          d="M18.6357 5.87268C19.7477 4.51675 20.5086 2.67205 20.2974 0.800049C18.6879 0.86952 16.675 1.88554 15.5159 3.21169C14.4903 4.38029 13.5742 6.29571 13.8109 8.097C15.6189 8.2285 17.4753 7.20752 18.6357 5.87268Z"
+                          fill="#403F3D" />
+                      </svg>
+                      <div class="buttons__text">
+                        <p class="button__text-1">Available on the</p>
+                        <p class="button__text-2">App Store</p>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a class="button buttons__app">
+                    <div class="button__icon">
+                      <svg class="image__icon" width="31" height="34" viewBox="0 0 31 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.755796 2.20297C0.393349 2.57289 0.183594 3.14884 0.183594 3.89471V30.4994C0.183594 31.2453 0.393349 31.8212 0.755796 32.1911L0.845252 32.2723L16.1359 17.37V17.0181L0.845252 2.11575L0.755796 2.20297Z"
+                          fill="#403F3D" />
+                        <path
+                          d="M23.0776 22.34L17.9863 17.37V17.0181L23.0837 12.0482L23.1979 12.1128L29.2345 15.4617C30.9573 16.4121 30.9573 17.976 29.2345 18.9324L23.1979 22.2753L23.0776 22.34Z"
+                          fill="#403F3D" />
+                        <path
+                          d="M22.2733 23.2007L17.0617 18.1195L1.68164 33.1166C2.25384 33.7031 3.18695 33.7737 4.24807 33.1873L22.2733 23.2007Z"
+                          fill="#403F3D" />
+                        <path
+                          d="M22.2733 11.1876L4.24807 1.20103C3.18695 0.620579 2.25384 0.691254 1.68164 1.27772L17.0617 16.2688L22.2733 11.1876Z"
+                          fill="#403F3D" />
+                      </svg>
+                      <div class="buttons__text">
+                        <p class="button__text-1">Available on</p>
+                        <p class="button__text-2">Google Play</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="box__mobile__img">
+                <img class="mobile__img" src="../image/img/mobile-screens.png" alt="mobile">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contact_us">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="container__footer">
+            <!-- <div class="foter__contiant"> -->
+            <div class="footer__offer">
+              <h2 class="footer__h2">Sip, Savor, Smile.<span class="h2-wold"><br>It’s coffee time!</span></h2>
+              <div class="footer_social">
+
+                <a href="https://twitter.com">
+                  <div class="button__social">
+                    <img src="../image/svg/twitter.svg" alt="Twitter">
+                  </div>
+                </a>
+                <a href="https://instagram.com">
+                  <div class="button__social">
+                    <img src="../image/svg/instagram.svg" alt="instagram">
+                  </div>
+                </a>
+                <a href="https://pl-pl.facebook.com">
+                  <div class="button__social">
+                    <img src="../image/svg/facebook.svg" alt="facebook">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="foooter__contacts-info">
+              <p class="footer__text">Contact us</p>
+              <div class="footer__contacts">
+                <div class="footer__map">
+                  <div class="footer__map-underliling">
+                    <a class="footer__inner--p" href="https://goo.gl/maps/5cZbmQSmKUhyAVbr6" target="_blank"><img
+                        src="../image/svg/pin-alt.svg" alt="pin"></a>
+                    <p class="text text__footer"><a href="https://goo.gl/maps/5cZbmQSmKUhyAVbr6">8558 Green Rd., LA</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="footer_tel">
+                  <div class="footer__map-underliling">
+                    <a href="tel:+16035550123"><img src="../image/svg/phone.svg" alt="phone"></a>
+                    <p class="text text__footer"><a href="tel:+16035550123">+1 (603) 555-0123</a></p>
+                  </div>
+                </div>
+                <div class="footer_clock">
+                  <img src="../image/svg/clock.svg" alt="clock">
+                  <p class="text text__footer">Mon-Sat: 9:00 AM – 23:00 PM</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="contact__info"></div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

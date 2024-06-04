@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../image/svg/logo.svg">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <title>Coffe-house/menu</title>
+</head>
+
+<body>
+  <div class="home__container">
+    <main>
+      <header class="header">
+        <div class="container">
+          <div class="header_inner">
+            <div class="logo">
+              <a href="../home/index.html" class="menu_link"><img src="../image/svg/logo.svg" alt="logo"></a>
+            </div>
+            <div class="header_nav">
+              <nav class="navigation">
+                <ul class="nav_list">
+                  <li><a href="../home/index.html#favourites_coffee" class="menu_link">Favorite coffee</a></li>
+                  <li><a href="../home/index.html#about" class="menu_link">About</a></li>
+                  <li><a href="../home/index.html#mobile_app" class="menu_link">Mobile app</a></li>
+                  <li><a href="#contact_us" class="menu_link">Contact us</a></li>
+                </ul>
+                <a id="menu__btn" class="header__menu nav_hidden" href="../menu/index.html"><span>Menu</span> <img
+                    class="button__header-img" src="../image/svg/coffee-cup.svg" alt="cup"></a>
+              </nav>
+            </div>
+
+            <!-- <div class="menu"> -->
+
+            <a class="header__menu hidden" href="../menu/index.html"><span>Menu</span> <img class="button__header-img"
+                src="../image/svg/coffee-cup.svg" alt="cup"></a>
+            <button class="button__header">
+              <span class="button_content"></span>
+              <span class="button_content"></span>
+            </button>
+
+            <!-- </div> -->
+          </div>
+        </div>
+      </header>
+      <section class="menu__section">
+        <div class="container">
+          <div class="menu__wrap">
+            <div class="container__menu">
+              <div class="menu__head">
+                <h1>Behind each of our cups hides an <span class="h1-world">amazing surprise</span></h1>
+                <div class="menu__tabs">
+                  <div class="tabs">
+
+                    <input type="radio" id="tab_coffee" name="tabs" checked="checked">
+                    <label for="tab_coffee">
+                      <span class="btn__circle"><img src="../image/svg/cofffe.svg" alt="dessert"></span>
+                      <!-- <img src="../image/svg/icon_cup2.svg">-->
+                      Coffee
+                    </label>
+
+                    <input type="radio" id="tab_tea" name="tabs">
+                    <label for="tab_tea">
+                      <!-- <img src="../image/svg/icon_tea.svg"> -->
+                      <span class="btn__circle"><img src="../image/svg/tea.svg" alt="dessert"></span>
+                      Tea</label>
+                    <input type="radio" id="tab_dessert" name="tabs">
+                    <label for="tab_dessert">
+                      <!-- <img src="../image/svg/icon_desert.svg"> -->
+                      <span class="btn__circle"><img src="../image/svg/dess.svg" alt="dessert"></span>
+                      Dessert
+                    </label>
+
+                    <div class="tabs__body">
+                      <div class="tabs__block">
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-1.jpg" alt="Irish coffee">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Irish coffee</p>
+                              <p class="box__composition box__text-color">Fragrant black coffee with<br> Jameson Irish
+                                whiskey
+                                and
+                                whipped
+                                milk</p>
+                            </div>
+                            <p class="box__price box__text-color">$7.00</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-2.jpg" alt="Kahlua coffee">
+                          </div>
+
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Kahlua coffee</p>
+                              <p class="box__composition box__text-color">Classic coffee with milk and Kahlua liqueur
+                                under a
+                                cap of frothed milk</p>
+                            </div>
+                            <p class="box__price box__text-color">$7.00</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-3.jpg" alt="Honey raf">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Honey raf</p>
+                              <p class="box__composition box__text-color">Espresso with frothed milk, cream and aromatic
+                                honey
+                              </p>
+                            </div>
+                            <p class="box__price box__text-color">$5.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-4.jpg" alt="Ice cappuccino">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Ice cappuccino</p>
+                              <p class="box__composition box__text-color">Cappuccino with soft thick foam in summer
+                                version
+                                with
+                                ice</p>
+                            </div>
+                            <p class="box__price box__text-color">$5.00</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-5.jpg" alt="Espresso">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Espresso</p>
+                              <p class="box__composition box__text-color">Classic black coffee</p>
+                            </div>
+                            <p class="box__price box__text-color">$4.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-6.jpg" alt="Latte">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Latte</p>
+                              <p class="box__composition box__text-color">Espresso coffee with the addition of steamed
+                                milk
+                                and
+                                dense milk foam</p>
+                            </div>
+                            <p class="box__price box__text-color">$5.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-7.jpg" alt="Latte macchiato">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Latte macchiato</p>
+                              <p class="box__composition box__text-color">Espresso with frothed milk and chocolate</p>
+                            </div>
+                            <p class="box__price box__text-color">$5.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/coffee-8.jpg" alt="Coffee with cognac">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Coffee with cognac</p>
+                              <p class="box__composition box__text-color">Fragrant black coffee with cognac and whipped
+                                cream
+                              </p>
+                            </div>
+                            <p class="box__price box__text-color">$6.50</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tabs__block">
+
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/tea-1.png" alt="Moroccan">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Moroccan</p>
+                              <p class="box__composition box__text-color">Fragrant black tea with the addition of
+                                tangerine,
+                                cinnamon, honey, lemon and mint</p>
+                            </div>
+                            <p class="box__price box__text-color">$4.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/tea-2.png" alt="Ginger">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Ginger</p>
+                              <p class="box__composition box__text-color">Original black tea with fresh ginger, lemon
+                                and
+                                honey
+                              </p>
+                            </div>
+                            <p class="box__price box__text-color">$5.00</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/tea-3.png" alt="Cranberry">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Cranberry</p>
+                              <p class="box__composition box__text-color">Invigorating black tea with cranberry and
+                                honey
+                              </p>
+                            </div>
+                            <p class="box__price box__text-color">$5.00</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/tea-4.png" alt="Sea buckthorn">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Sea buckthorn</p>
+                              <p class="box__composition box__text-color">Toning sweet black tea with sea buckthorn,
+                                fresh
+                                thyme
+                                and cinnamon</p>
+                            </div>
+                            <p class="box__price box__text-color">$5.50</p>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="tabs__block">
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-1.png" alt="Marble cheesecake">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Marble cheesecake</p>
+                              <p class="box__composition box__text-color">Philadelphia cheese with lemon zest on a light
+                                sponge
+                                cake and red currant jam</p>
+                            </div>
+                            <p class="box__price box__text-color">$3.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-2.png" alt="Red velvet">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Red velvet</p>
+                              <p class="box__composition box__text-color">Layer cake with cream cheese frosting</p>
+                            </div>
+                            <p class="box__price box__text-color">$4.00</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-3.png" alt="Cheesecakes">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Cheesecakes</p>
+                              <p class="box__composition box__text-color">Soft cottage cheese pancakes with sour cream
+                                and
+                                fresh
+                                berries and sprinkled with powdered sugar</p>
+                            </div>
+                            <p class="box__price box__text-color">$4.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-4.png" alt="Creme brulee">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Creme brulee</p>
+                              <p class="box__composition box__text-color">Delicate creamy dessert in a caramel basket
+                                with
+                                wild
+                                berries</p>
+                            </div>
+                            <p class="box__price box__text-color">$4.00</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-5.png" alt="Pancakes">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Pancakes</p>
+                              <p class="box__composition box__text-color">Tender pancakes with strawberry jam and fresh
+                                strawberries</p>
+                            </div>
+                            <p class="box__price box__text-color">$4.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-6.png" alt="Honey cake">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Honey cake</p>
+                              <p class="box__composition box__text-color">Classic honey cake with delicate custard</p>
+                            </div>
+                            <p class="box__price box__text-color">$4.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-7.png" alt="Chocolate cake">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Chocolate cake</p>
+                              <p class="box__composition box__text-color">Cake with hot chocolate filling and nuts with
+                                dried
+                                apricots</p>
+                            </div>
+                            <p class="box__price box__text-color">$5.50</p>
+                          </div>
+                        </div>
+                        <div class="menu__box">
+                          <div class="box__img">
+                            <img class="box__photo" src="../image/img/dessert-8.png" alt="Black forest">
+                          </div>
+                          <div class="description">
+                            <div class="title__wrap">
+                              <p class="box__title box__text-color">Black forest</p>
+                              <p class="box__composition box__text-color">A combination of thin sponge cake with cherry
+                                jam
+                                and
+                                light chocolate mousse</p>
+                            </div>
+                            <p class="box__price box__text-color">$6.50</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="menu__refresh-button"><img src="../image/svg/refresh.svg"
+                        alt="arrow refesh"></button>
+
+                  </div>
+                  <!-- </div>
+              </div> -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+
+    <footer class="footer" id="contact_us">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="container__footer">
+            <!-- <div class="foter__contiant"> -->
+            <div class="footer__offer">
+              <h2 class="footer__h2">Sip, Savor, Smile. <span class="h2-wold">It’s coffee time!</span></h2>
+              <div class="footer_social">
+
+                <a href="https://twitter.com">
+                  <div class="button__social">
+                    <img src="../image/svg/twitter.svg" alt="Twitter">
+                  </div>
+                </a>
+                <a href="https://instagram.com">
+                  <div class="button__social">
+                    <img src="../image/svg/instagram.svg" alt="instagram">
+                  </div>
+                </a>
+                <a href="https://pl-pl.facebook.com">
+                  <div class="button__social">
+                    <img src="../image/svg/facebook.svg" alt="facebook">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="foooter__contacts-info">
+              <p class="footer__text">Contact us</p>
+              <div class="footer__contacts">
+                <div class="footer__map">
+                  <div class="footer__map-underliling">
+                    <a class="footer__inner--p" href="https://goo.gl/maps/5cZbmQSmKUhyAVbr6" target="_blank"><img
+                        src="../image/svg/pin-alt.svg" alt="pin"></a>
+                    <p class="text text__footer"><a href="https://goo.gl/maps/5cZbmQSmKUhyAVbr6">8558 Green Rd., LA</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="footer_tel">
+                  <div class="footer__map-underliling">
+                    <a href="tel:+16035550123"><img src="../image/svg/phone.svg" alt="phone"></a>
+                    <p class="text text__footer"><a href="tel:+16035550123">+1 (603) 555-0123</a></p>
+                  </div>
+                </div>
+                <div class="footer_clock">
+                  <img src="../image/svg/clock.svg" alt="clock">
+                  <p class="text text__footer">Mon-Sat: 9:00 AM – 23:00 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- </div> -->
+  <div class="modal modal__menu ">
+    <div class="modal__menu-window">
+      <div class="modal__wrap">
+        <div class="modal__img">
+          <img class="modal__photo" src="../image/img/coffee-1.jpg" alt="Irish coffee">
+        </div>
+        <div class="modal__descraption">
+          <div class="title__wrap">
+            <p class="box__title box__text-color">Irish coffee</p>
+            <p class="box__composition box__text-color">Fragrant black coffee with<br> Jameson Irish
+              whiskey
+              and
+              whipped
+              milk</p>
+          </div>
+          <div class="size">
+            <span>Size</span>
+            <div class="modal__tabs">
+              <input type="radio" id="tab_200" name="modal__size" checked="checked">
+              <label for="tab_200">
+                <span class="btn__circle">j</span>
+              </label>
+
+              <input type="radio" id="tab_300" name="modal__size">
+              <label for="tab_300">
+
+                <span class="btn__circle"></span>
+              </label>
+              <input type="radio" id="tab_400" name="modal__size" value="l">
+              <label for="tab_400">
+
+                <span class="btn__circle"></span>l
+
+              </label>
+            </div>
+
+          </div>
+          <div class="additives">
+            <span>Additives</span>
+            <div class="modal__tabs">
+              <input type="checkbox" id="tab_1" name="tabs__additives">
+              <label for="tab_1">
+                <span class="btn__circle">1</span>
+              </label>
+
+              <input type="checkbox" id="tab_2" name="tabs__additives">
+              <label for="tab_2">
+
+                <span class="btn__circle">2</span>
+              </label>
+              <input type="checkbox" id="tab_3" name="tabs__additives">
+              <label for="tab_3">
+
+                <span class="btn__circle">3</span>
+              </label>
+            </div>
+          </div>
+          <div class="total">
+            <div class="modal__price">Total:</div>
+            <div class="modal__price result">$.00</div>
+          </div>
+          <div class="alert">
+            <div>
+              <img src="../image/svg/info-empty.svg">
+            </div>
+            <div class="alert__text">The cost is not final. Download our mobile app to see the final price and place
+              your order.
+              Earn loyalty points and enjoy your favorite coffee with up to 20% discount.</div>
+          </div>
+          <button class="modal__btn">Close</button>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="owerlay"></div>
+  </div>
+  </div>
+
+  </div>
+  <script src="../home/script.js"></script>
+</body>
+
+</html>
